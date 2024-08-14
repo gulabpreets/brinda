@@ -1,0 +1,308 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+.brinda1
+{
+    background: url('assets/contact.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 740px;
+    width: 100%;
+    position: relative;
+}
+.brindaheadings h1{
+    font-size: 58px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    line-height: 80px;
+    width: 620px;
+    margin-top: 35px;
+    text-align: left;
+    text-transform: capitalize;
+}
+.brindaheadings p{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 34px;
+    text-align: left;
+    width: 80%;
+}
+.second-headings h6
+{
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    color: var(--blue-color);
+    line-height: 24px;
+    text-align: center;
+}
+.second-headings
+{
+    margin-top: 52px;
+}
+.second-headings h2
+{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    color: var(--blue-color);
+    line-height: 50px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.second-content
+{
+    border: 2px solid var(--green-color);
+    height: 430px;
+    margin: 80px 228px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 985px;
+}
+.div1
+{
+    height: 100%;
+    width: 33.33%;
+}
+.icon
+{
+    margin-top: 113px;
+    margin-left: 128px;
+}
+.content h6{
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    color: var(--blue-color);
+    line-height: 24px;
+    text-align: center;
+    margin-top: 27px;
+}
+.div2 .content h6{
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    color: var(--white-color);
+    line-height: 24px;
+    text-align: center;
+    margin-top: 27px;
+    
+    margin-left: 67px;
+}
+.div2
+{
+    height: 100%;
+    background-color: var(--green-color);
+    width: 33.33%;
+}
+.div3
+{
+    height: 100%;
+    width: 33.33%;
+}
+.buttn button{
+    color: var(--green-color);
+    padding:15px 36px;
+    border-color: var(--green-color);
+    border-radius: 37px;
+    margin-left: 96px;
+    margin-top: 20px;
+    color: var(--green-color);
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    background-color: transparent;
+}
+.div2 .buttn button{
+    color: var(--white-color);
+    border-color: var(--white-color);
+    margin-top: 20px;
+    margin-left: 70px;
+}
+.div3 .buttn button{
+    margin-left: 70px;
+}
+.third-part
+{
+    height: 750px;
+    background-color: var(--green-color);
+}
+.third-content
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.form-part
+{
+    margin-left: 190px;
+    margin-top: 30px;
+    height: 100%;
+}
+.form-part p{
+    font-size: 36px;
+    line-height: 50px;
+    font-weight: 600;
+    color: var(--white-color);
+}
+.form-part h5{  
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    color: var(--white-color);
+    letter-spacing: 1px;
+}
+.form-part h6{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--white-color);
+
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    width: 488px;
+    height: 52px;
+}
+
+.dropbtn {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: var(--greyish-color);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.arrow {
+    font-size: 12px;
+    margin-left: auto;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 488px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+
+.dropdown-content a {
+    color: var(--green-color);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: var(--green-color);
+    color: var(--white-color);
+}
+
+.show {
+    display: block;
+    max-height: 300px; /* Adjust this based on the content's height */
+    transition: max-height 0.3s ease-in;
+}
+.form-group label{
+    color: var(--white-color);
+    opacity:0.8;
+}
+.btn-primar{
+    width: 100%;
+    color:white;
+    background-color: #091B31;
+    font-size: 18px;
+    font-weight: 500;
+    height: 48px;
+}
+form
+{
+    margin-top: 30px;
+}
+@media(max-width:768px)
+{
+    .second-part
+    {
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .second-content
+    {
+        flex-direction: column;
+        height: auto;
+        margin: 0;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .div1,.div2,.div3{
+        width: 100%;
+    }
+    .icon
+    {
+        text-align: center;
+        margin-left: 0;
+        margin-top: 30px;
+    }
+    .buttn{
+        text-align: center;
+    }
+    .buttn button{
+        margin-left: 0;
+        margin: 20px 0;
+    }
+    .div3 .buttn button
+    {
+        margin-left: 0;
+    }
+    .div2 .buttn button
+    {
+        margin-left: 0;
+    }
+    .div2 .content
+    {
+        text-align: center;
+        margin: 0;
+    }
+    .div2 .content h6
+    {
+        text-align: center;
+    }
+    .img-part
+    {
+        display: none;
+    }
+    .form-part
+    {
+        text-align: center;
+        margin-left: 140px;
+    }
+    .form-group
+    {
+        text-align: left;
+    }
+}

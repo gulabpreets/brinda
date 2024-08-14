@@ -1,0 +1,116 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+.brinda1
+{
+    background: url('assets/about.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 740px;
+    width: 100%;
+    position: relative;
+}
+.brindaheadings h5{
+    font-weight: 700;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    line-height: 24px;
+    text-align: left;
+    }
+.brindaheadings h1{
+    font-size: 58px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    line-height: 80px;
+    width: 100%;
+    margin-top: 35px;
+    text-align: left;
+
+}
+.brindaheadings h4{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 34px;
+    text-align: left;
+    width: 70%;
+}
+.fourth-part
+{
+    height: 783px;
+    background-color: white;
+}
+.fourth-part h2{
+    margin-top: 102px;
+    margin-left: 225px;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    line-height:50px;
+    color: #000;
+}
+.third-part
+{
+    width: 100%;
+    height: 768px;
+}
+.third-part h2{
+    margin-top: 102px;
+    margin-left: 188px;
+    margin-bottom: 102px;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    line-height:50px;
+    color: #000;
+}
+.img img{
+    width: 100%;
+}
+.third-content
+{
+    display: flex;
+    align-items: center;
+}
+.thirdi-part
+{
+    background-color: var(--green-color);
+    height: 636px;
+}
+.third-text
+{
+    margin: 202px 195px;
+    color: #fff;
+    width: 440px;
+}
+.third-text h5{
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.third-text h2{
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    line-height: 50px;
+    width: 519px;
+    
+}
+.third-img
+{
+    margin-left: 100px;
+    margin-bottom: 85px;
+}

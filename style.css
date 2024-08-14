@@ -1,0 +1,675 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+:root{
+    --blue-color:#252B42;
+    --green-color:#2DC071;
+    --cyan-color: #23856D;
+    --blue-text-color:#0E3D4D;
+    --white-color:#fff;
+    --greyish-color:#737373;
+    --btn-color:#018F5F
+
+
+}
+
+.disclamer{
+    width: 100vw;
+    height: 100vh;
+    background-color: #000000d6;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+}
+
+.disclamer h3{
+    font-size: 30px;
+    color: white;
+    margin: 20px 30px;
+    text-align: center;
+}
+
+
+p{
+    margin:0;
+}
+.head1
+{
+    background-color: var(--blue-color);
+    height: 58px;
+    color: var(--white-color);
+    
+}
+.container
+{
+    height: 100%;
+    width: 100%;
+}
+.head1-1
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.h1-div
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: "Montserrat", sans-serif;
+}
+.head1-2
+{
+    font-weight: 600;
+    
+}
+.head1-3
+{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.head1-content
+{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Montserrat", sans-serif;
+    
+}
+.h3-1div
+{
+    font-weight: 600;
+}
+.h3-2div
+{
+    color: var(--white-color);
+    font-family: "Montserrat", sans-serif;
+    
+}
+.t
+{
+    margin:0 10px;
+}
+.fa-brands
+{
+    margin-left: 10px;
+}
+.header
+{
+    height: 78px;
+    background-color: var(--white-color);
+}
+.header-container
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    height: 100%;
+}
+.navlist-section
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navbtn-section button
+{
+    background-color: var(--btn-color);
+    color: var(--white-color);
+    text-transform: uppercase;
+    margin-right: 40px;
+}
+.navcontent{
+    margin-top: 10px;
+}
+.navcontent ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-decoration: none;
+    list-style: none;
+    color: var(--greyish-color);
+}
+.navcontent ul li a
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: var(--greyish-color);
+    text-decoration: none;
+    font-weight: 550;
+    padding: 0 10px;
+}
+.swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+.brinda1
+{
+    background: url('assets/shop-hero-1-product-slide-1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 740px;
+    width: 100%;
+    position: relative;
+}
+.navbtn-section1 button
+{
+    background-color: var(--green-color);
+    color: var(--white-color);
+    text-transform: capitalize;
+    margin-right: 40px;
+    padding: 15px 40px;
+    font-size: 24px;
+    line-height: 32px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+.brindaheadings
+{
+    color: var(--white-color);
+    position: absolute;
+    margin-top: 160px;
+    left: 170px;
+}
+.navbtn-section1
+{
+    position: absolute;
+    left: 170px;
+    bottom: 180px;
+}
+.brindaheadings h5{
+    font-weight: 700;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    line-height: 24px;
+    text-align: left;
+    }
+.brindaheadings h1{
+    font-size: 58px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    line-height: 80px;
+    width: 51%;
+    margin-top: 35px;
+    text-align: left;
+
+}
+.brindaheadings h4{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 34px;
+    text-align: left;
+}
+.second-part
+{
+    height: 770px;
+}
+.brinda2content
+{
+    margin-top: 122px;
+    margin-left: 420px;
+}
+.brinda2content h3{
+    text-transform: uppercase;
+    margin-left: 200px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    font-family: "Montserrat", sans-serif;
+}
+.brinda2content h4{
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--greyish-color);
+    margin-left: 250px;
+}
+.brinda2content p
+{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin-left: 130px;
+}
+.brida2images
+{
+    margin-left: 196px;
+    height: 500px;
+    margin-top: 48px;
+    display: flex;
+    align-items: center;
+    
+    position: relative;
+}
+.brida2firstpart
+{
+    margin-right: 20px;
+}
+.brida2-1p
+{
+    width: 100%;
+    margin-bottom: 20px;
+    position: relative;
+    margin-top: 15px;
+}
+.image-container {
+    position: relative;
+}
+
+.image-container img {
+    width: 100%;
+    display: block;
+}
+
+.overlay {
+        position: absolute;
+    bottom: 45px;
+    left: 45px;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--white-color);
+    color: var(--blue-color);
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+.third-part
+{
+    height: 887px;
+    
+}
+.brinda3
+{
+    height: 600px;
+}
+.brinda3 .swiper
+{
+    width: 80%;
+    height: 80%;
+    margin-top: 100px;
+}
+.brinda3 .swiper-slide
+{
+    background: transparent;
+}
+.brinda3 .swiper-slide img {
+      display: block;
+      width: 90%;
+      height: 90%;
+      object-fit: cover;
+    }
+.brinda3 .swiper-button-next ,.swiper-button-prev
+{
+    color: #000;
+}
+
+.fourth-part
+{
+    height: 766px;
+    background-color: var(--cyan-color);
+}
+.brinda4
+{
+    position: relative;
+}
+.brinda4-img
+{
+    position: absolute;
+    top: 150px;
+    right: 0;
+}
+.brinda4content
+{
+    margin-top: 106px;
+    margin-left: 140px;
+}
+.brinda4content h1{
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    font-size: 58px;
+    line-height: 80px;
+    color: var(--white-color);
+}
+.brinda4content p{
+    width: 341px;
+    height: 140px;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: "Montserrat", sans-serif;
+    color: var(--white-color);
+}
+.navbtn-section2
+{
+    margin-top: 40px;
+}
+.navbtn-section2 button{
+    background-color: var(--green-color);
+    color: var(--white-color);
+    text-transform: capitalize;
+    margin-right: 40px;
+    padding: 15px 40px;
+    font-size: 24px;
+    line-height: 32px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+.sixth-part
+{
+    height: 652px;
+}
+.brinda6img
+{
+    margin-top: 50px;
+    margin-left: 133px;
+}
+.brinda6img img{
+    width: 80%;
+}
+.brinda6content
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.brinda6text h5{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--greyish-color);
+}
+.brinda6text h2{
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    width: 458px;
+}
+.brinda6text h4{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--greyish-color);
+    width: 375px;
+}
+.brinda6btn
+{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    
+}
+.btn1 button
+{
+    background-color: var(--green-color);
+    color: white;
+    padding: 15px 40px;
+    font-weight: 600;
+    margin-right: 20px;
+}
+.btn2 button{
+    background-color: var(--white-color);
+    color: var(--green-color);
+    border: 1px solid var(--green-color);
+    padding: 15px 40px;
+    font-weight: 600;
+}
+.footer
+{
+    height: 488px;
+    
+}
+.brinda-foot1
+{
+    height: 158px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 95px;
+}
+.brinda-icons i
+{
+    color: royalblue;
+    font-size: 24px;
+    padding-right: 20px;
+}
+.full-width
+
+{
+    width: 80%;
+    margin-right: 20px;
+    border: 0;
+    height: 2px; /* Adjust the thickness */
+    background-color: black;
+    opacity: 0.5;
+    margin: 0 13%;
+    
+}
+.brindafoot2
+{
+    height: 173px;
+}
+.brinda-foot2
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 80px;
+}
+.brindafoot1 h5{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--blue-color);
+}
+.brindafoot1 ul li a{
+    text-decoration: none;
+    color: var(--greyish-color);
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+}
+.brindafoot1 ul li
+{
+    list-style: none;
+    margin-bottom: 10px;
+}
+.brindafoot3 h5{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--blue-color);
+}
+.brindafoot3 p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--greyish-color);
+    font-weight: 600;
+    margin-top: 20px;
+}
+.fifth-part
+{
+    height: 760px;
+}
+input[type="email"]::placeholder
+{
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--greyish-color);
+    font-weight: 700;
+    margin-top: 20px;
+    text-align: center;
+}
+input[type="email"]
+{
+    height: 58px;
+    width: 221px;
+    margin-top: 30px;
+}
+.navbtn-section3 button{
+    background-color: var(--green-color);
+    color: var(--white-color);
+    text-transform: capitalize;
+    margin-right: 40px;
+    padding: 15px;
+    font-size: 18px;
+    line-height: 32px;
+    font-family: "Montserrat", sans-serif;
+    
+}
+.brinda-foot3
+{
+    height: 71px;
+}
+.brinda-foot3 h5{
+    margin-top: 25px;
+    margin-left: 215px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--greyish-color);
+    font-weight: 700;
+}
+.checked
+{
+    color: orange;
+}
+.brinda5headings
+{
+    text-align: center;
+    
+}
+.brinda5headings h4{
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--greyish-color);
+    font-weight: 400;
+    margin-top: 85px;
+}
+.brinda5headings h3
+{
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--blue-color);
+    font-weight: 700;
+}
+.brinda5headings p{
+    margin-left: 430px;
+    width: 645px;
+    color: royalblue;
+}
+.brindastars
+{
+    margin-top: 30px;
+}
+@media(max-width:768px)
+{
+    .second-part
+    {
+        height: auto;
+    }
+    .brinda2content
+    {
+        margin: 0;
+        text-align: center;
+    }
+    .brinda2content h3
+    {
+        margin: 0;
+        margin-top: 20px;
+    }
+    .brinda2content p
+    {
+        margin: 0;
+    }
+    .brida2images 
+    {
+        height: auto;
+        margin-left: 0;
+        flex-direction: column;
+    }
+    .brida2firstpart
+    {
+        padding:0;
+        margin: 0;
+    }
+    .brida2secondpart
+    {
+        width: 100%;
+    }
+    .brida2-1p img {
+        width: 100%;
+    };
+    .sixth-part
+    {
+        height: 850px;
+    }
+    .brinda6img
+    {
+        margin: 0;
+    }
+    .brinda6content
+    {
+        flex-direction: column;
+    }
+    .brinda6content .container
+    {
+        height: 100%;
+    }
+}
+
+/* --------------------------------------RC */
+
